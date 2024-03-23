@@ -215,7 +215,7 @@ This kind of set up is not suitable for every kind of website - but for the ones
 
 - Can create complex sites and interfaces with no work required on the client (= fast!)
 
-## Disadvantages
+## Drawbacks
 
 - Dynamic webservers are inherently more prone to bugs and security flaws, as custom code always is.
 
