@@ -1,0 +1,11 @@
+<style>
+    .color-block {
+        height: 400px;
+        width: 400px;
+        background-color: {{color}};
+    }
+</style>
+<em> {{color}} </em>
+<div class="color-block">
+</div>
+<button hx-post="/color/favorite/{{color}}" id="set-favorite-color-button" hx-target="#set-favorite-color-button" hx-swap="outerHTML">set as favorite</button>
