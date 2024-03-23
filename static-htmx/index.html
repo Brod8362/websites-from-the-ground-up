@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <head>
     <title>Main Page</title>
+    <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
     <p>Click on a color to see that color!</p>
-    <a href="/blue.html">blue</a>
-    <a href="/red.html">red</a>
-    <a href="/yellow.html">yellow</a>
-    <a href="/green.html">green</a>
+    <a hx-get="/blue.html" hx-target="#content">blue</a>
+    <a hx-get="/red.html" hx-target="#content">red</a>
+    <a hx-get="/yellow.html" hx-target="#content">yellow</a>
+    <a hx-get="/green.html" hx-target="#content">green</a>
+    <div id="content">
+        <p> no color loaded yet </p>
+    </div>
 </body>
