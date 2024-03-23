@@ -105,6 +105,10 @@ Observe how you can click on the various colors to view them - but every time yo
 
 Additionally, each of pages needed to be created separately with different content. If I wanted to scale up to have more than just four colors, I would have to make a new page for every single color I want to support.
 
+![alt text](img/static-1.png)
+
+![alt text](img/static-2.png)
+
 ## Advantages
 
 - Because static web servers are so simple, they are typically very performant and simple to set up. It's barely more complicated than parsing the file you want and formatting an HTTP request to then send it back to you. 
@@ -150,6 +154,11 @@ Please run the web server in `static-htmx` as specified in the instructions, and
 
 (If you're having issues with the squares not displaying properly, your browser most likely cached the pages from the previous example. Clear your cache or force-refresh and try again. These examples are tested and known to work properly.)
 
+![alt text](img/static-htmx-1.png)
+
+![alt text](img/static-htmx-2.png)
+
+
 ## Advantages
 
 - With a small amount of work, we can greatly improve the usability of our site.
@@ -192,6 +201,13 @@ Now with htmx and a dynamic backend, we can accomplish almost anything. The scop
 This kind of set up is not suitable for every kind of website - but for the ones where it is, it greatly increases development time and decreases complexity. 
 
 (As an example, it should be very possible to create a chat service like discord using only htmx!)
+
+
+![alt text](img/dynamic-1.png)
+
+![alt text](img/dynamic-2.png)
+
+![alt text](img/dynamic-3.png)
 
 ## Advantages
 
